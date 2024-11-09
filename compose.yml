@@ -1,0 +1,13 @@
+services:
+  postgres:
+    image: postgres:12-alpine
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=books
+    volumes:
+      - type: bind
+        source: .postgres/
+        target: /var/lib/postgresql/data
