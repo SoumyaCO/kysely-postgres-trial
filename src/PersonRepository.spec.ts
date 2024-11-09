@@ -49,4 +49,3 @@ describe("PersonRepository", () => {
     await PersonRepository.deletePerson(123);
   });
 });
-import { before } from "node:test";

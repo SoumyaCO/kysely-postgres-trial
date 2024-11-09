@@ -1,5 +1,5 @@
 .yarn
 .yarnrc.yml
 node_modules
-.postgres
+postgres
 .env
