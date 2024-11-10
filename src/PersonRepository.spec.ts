@@ -14,6 +14,7 @@ describe("PersonRepository", () => {
       .addColumn("created_at", "timestamp", (cb) =>
         cb.notNull().defaultTo(sql`now()`),
       )
+      .addColumn("metadata", "varchar")
       .execute();
   });
 

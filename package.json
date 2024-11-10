@@ -1,6 +1,7 @@
 {
   "name": "supabase",
   "packageManager": "yarn@3.8.4",
+  "type": "module",
   "dependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.9.0",
